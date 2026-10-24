@@ -4,7 +4,7 @@ An Android school project developed in Kotlin for the Associate Degree Informati
 
 ## About the project
 
-This application was developed for **Block 3 (Mobile & Innovation)** alongside a **Block 2 resit focused on object-oriented programming**. The assignment used a consumer-complaints scenario as a way to translate analysis and requirements into an Android application. The main learning goal was not to create a production-ready complaints service, but to apply software-development concepts and demonstrate the connection between requirements, design, implementation and validation.
+This application was developed for **Block 3 (Mobile & Innovation)** of the Associate Degree Informatica programme, with an emphasis on applying object-oriented programming concepts. The assignment used a consumer-complaints scenario as a way to translate analysis and requirements into an Android application. The main learning goal was not to create a production-ready complaints service, but to apply software-development concepts and demonstrate the connection between requirements, design, implementation and validation.
 
 The app lets users register consumers, sellers and purchased products; record complaints and their status or resolution; and capture photographic evidence with the phone camera. The data is stored locally on the device.
 
@@ -36,6 +36,6 @@ Known limitations include manually entered sample data, limited automated tests,
 
 ## Development context
 
-I developed this project as part of my coursework and the Block 2 resit, working against the assessment criteria and iterating on the design and implementation. I used AI-assisted development tools as support while making implementation decisions, testing functionality and refining the project. The repository was created **retrospectively in October 2026 for my internship portfolio**; its GitHub creation date does not represent the original development period.
+I developed this project as part of my coursework, working against the assessment criteria and iterating on the design and implementation. I used AI-assisted development tools as support while making implementation decisions, testing functionality and refining the project. The repository was created **retrospectively in October 2026 for my internship portfolio**; its GitHub creation date does not represent the original development period.
 
 This repository is a cleaned-up copy of the original school project. Generated build outputs, local machine settings and caches have been excluded. The application source code and Gradle project structure have otherwise been retained.
