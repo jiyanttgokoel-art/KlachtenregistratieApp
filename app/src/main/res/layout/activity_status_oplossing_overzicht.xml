@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvTitelStatusOverzicht"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status / oplossing"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvSubtitelStatusOverzicht"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bekijk en beheer geregistreerde statussen."
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tvLegeStatusOverzicht"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Er zijn nog geen statussen geregistreerd."
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnNieuweStatusToevoegen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nieuwe status / oplossing toevoegen"
+        android:layout_marginBottom="24dp" />
+
+    <ListView
+        android:id="@+id/listViewStatus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

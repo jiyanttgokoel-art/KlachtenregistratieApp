@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvTitelProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product registreren"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvSubtitelProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Koppel een product aan een bestaande verkoper."
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/tvGeenVerkopers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Er zijn nog geen verkopers geregistreerd."
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnGaNaarVerkoper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nieuwe verkoper registreren"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Serienummer"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/etSerienummer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Voer serienummer in"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Productnaam"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/etProductNaam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Voer productnaam in"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aankoopdatum"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/etDatum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kies aankoopdatum"
+            android:textSize="14sp"
+            android:focusable="false"
+            android:clickable="true"
+            android:inputType="none"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verkoper"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/spinnerVerkoper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnOpslaanProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product opslaan"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnBijwerkenProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product bijwerken"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>

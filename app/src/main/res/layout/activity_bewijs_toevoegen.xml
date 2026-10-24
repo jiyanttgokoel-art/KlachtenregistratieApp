@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvTitelBewijs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bewijs toevoegen"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvSubtitelBewijs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voeg bewijs toe aan een bestaand product."
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/tvGeenProducten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Er zijn nog geen producten geregistreerd."
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnGaNaarProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nieuw product registreren"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/spinnerProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Datum bewijs"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/etDatum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kies datum bewijs"
+            android:textSize="14sp"
+            android:focusable="false"
+            android:clickable="true"
+            android:inputType="none"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bewijstype"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/spinnerBewijstype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnMaakFoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Foto maken"
+            android:layout_marginBottom="12dp" />
+
+        <ImageView
+            android:id="@+id/imgBewijsPreview"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Preview van bewijsfoto"
+            android:visibility="gone"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnOpslaanBewijs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bewijs opslaan" />
+
+    </LinearLayout>
+</ScrollView>

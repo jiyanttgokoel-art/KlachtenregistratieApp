@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvTitelStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status / oplossing"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvSubtitelStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leg de status en oplossing vast voor een bestaande klacht."
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/tvGeenProducten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Er zijn nog geen producten geregistreerd."
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/spinnerProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/tvGeenKlachten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voor dit product zijn nog geen klachten geregistreerd."
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnGaNaarKlacht"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nieuwe klacht registreren"
+            android:visibility="gone"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Datum klacht"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/spinnerDatumKlacht"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/spinnerStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Oplossingstype"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/spinnerOplossing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnOpslaanStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Opslaan"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnBijwerkenStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bijwerken"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>

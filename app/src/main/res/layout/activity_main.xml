@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- HEADER -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingTop="4dp"
+            android:layout_marginBottom="24dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/baseline_fact_check_24"
+                android:layout_marginEnd="12dp"
+                android:layout_gravity="center_vertical"
+                android:tint="#B39DDB" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Klachtenregistratie"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Beheer klachten en oplossingen"
+                    android:textSize="13sp"
+                    android:alpha="0.7"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- CARD 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/transparent"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Snel starten"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registreer producten en klachten"
+                android:textSize="14sp"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/btnProductToevoegen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Product registreren"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/btnKlachtToevoegen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Klacht registreren"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/btnKlachtenOverzicht"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Klachtenoverzicht bekijken" />
+
+        </LinearLayout>
+
+        <!-- CARD 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Afhandeling"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Werk bewijs en status bij"
+                android:textSize="14sp"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/btnBewijsToevoegen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bewijs toevoegen"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/btnStatusOplossing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status / oplossing beheren" />
+
+        </LinearLayout>
+
+        <!-- CARD 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:elevation="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Basisgegevens"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beheer consument en verkoper"
+                android:textSize="14sp"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/btnConsumentToevoegen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Consument registreren"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/btnVerkoperToevoegen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Verkoper registreren" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
